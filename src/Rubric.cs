@@ -30,9 +30,9 @@
         return categories;
     }
 
-    public List<MusicalAbilityData> CategoryDataCreator()
+    public List<ICategoryData> CategoryDataCreator()
     {
-        var cd = new List<MusicalAbilityData>();
+        var cd = new List<ICategoryData>();
         MusicalAbilityData musicAbilityData = new MusicalAbilityData();
         cd.Add(musicAbilityData);
         return cd;
