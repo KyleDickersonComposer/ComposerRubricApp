@@ -7,7 +7,7 @@ public class MusicalAbilityData : ICategoryData
     public MusicalAbilityData()
     {
         Name = "Musical Ability";
-        Info = "This is your musical talent and craft. It has virtually zero influence on your ability to get a job(or successfully its fulfill requirements), but other composers recognize it as extremely valueable and admirable.";
+        Info = "This is your musical talent and craft. It has virtually zero influence on your ability to get a job (or successfully fulfill its requirements), but other composers recognize it as extremely valueable and admirable.";
 
         List<string> gi = new List<string>();
         gi.Add("Grade 10 is the highest level of musical ability and there are few living people who are able to attain it. Musicians at this level are close to the musical proficiency of a great composer but use their skills for a more practical end. Some musicians at this level are: Hugo Friedhofer, Miklos Rozsa, Bernard Herrmann, Conrad Salinger, Henry Mancini, John Scott Trotter, Barry Harris, John Clayton, Sammy Nestico, Bill Holman, Billy May, Hank Jones.");
