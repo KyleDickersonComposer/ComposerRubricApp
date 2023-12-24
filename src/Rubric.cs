@@ -31,7 +31,7 @@
         return categories;
     }
 
-    public List<ICategoryData> CategoryDataCreator()
+    private List<ICategoryData> CategoryDataCreator()
     {
         var cd = new List<ICategoryData>();
 
