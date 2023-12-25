@@ -23,5 +23,4 @@ public class MusicalAbilityData : ICategoryData
 
         GradingInfo = gi;
     }
-
 }
