@@ -7,7 +7,7 @@ public class CreditsNotorietyAssociationsData : ICategoryData
     public CreditsNotorietyAssociationsData()
     {
         Name = "Credits, Notoriety, and Associations";
-        Info = "These are the signals to clients and colleagues that your work is up to par. Getting working is about doing the right things and finding the right people.";
+        Info = "These are the signals to clients and colleagues that your work is up to par. Getting work is about doing the right things and finding the right people.";
 
         List<string> gi = new();
         GradingInfo = gi;

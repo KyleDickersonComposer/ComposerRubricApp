@@ -5,19 +5,19 @@ public class Program
         var rub = new Rubric();
         var cat = rub.Categories();
 
-        Console.WriteLine($"{cat[0].CategoryName}: {cat[0].CategoryInfo}");
-        Console.WriteLine("Press enter to continue...");
-        Console.ReadLine();
-
-        var gradingInfoList = cat[0].GradingInfo;
-        foreach (var item in gradingInfoList)
+        for (int i = 0; i < 9; i++)
         {
-            Console.WriteLine(item);
-            Console.WriteLine("Press enter to continue...");
+            Console.WriteLine(cat[i].CategoryName);
+            Console.WriteLine(cat[i].CategoryInfo);
             Console.ReadLine();
 
+            for (int j = 0; j < cat[i].GradingInfo.Count; j++)
+            {
+                Console.WriteLine(cat[i].GradingInfo[j]);
+
+            }
+
+            Console.ReadLine();
         }
-        Console.WriteLine("Press enter to exit...");
-        Console.ReadLine();
     }
 }

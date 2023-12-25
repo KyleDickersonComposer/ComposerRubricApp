@@ -6,7 +6,7 @@ public class MockupProductionSkillData : ICategoryData
     public MockupProductionSkillData()
     {
         Name = "Mockup and Production Skills";
-        Info = "Mockup and Production skills are one of the most fundamental skills for becoming a working composer. Many composers with an elite musical background overlook this skill and composers with less chops tend to specialize in it.";
+        Info = "These are one of the most fundamental skills for becoming a working composer. Many composers with an elite musical background overlook this skill and composers with less chops tend to specialize in it.";
 
         List<string> gi = new List<string>();
         GradingInfo = gi;

@@ -7,7 +7,7 @@ public class OnlinePresenceData : ICategoryData
     public OnlinePresenceData()
     {
         Name = "Online Presence";
-        Info = "This is an increasingly important factor in getting gigs. Many composers says that this should be a high priority. In the internet age a large boundary that separates composers from being successful is their discoverability. You have to put stuff out there for people to see it. And, it has to be decent.";
+        Info = "This is an increasingly important factor in getting gigs. Many composers say that this should be a high priority. In the internet age a large boundary that separates composers from being successful is their discoverability. You have to put stuff out there for people to see it. And, it has to be decent.";
 
         List<string> gi = new();
         GradingInfo = gi;

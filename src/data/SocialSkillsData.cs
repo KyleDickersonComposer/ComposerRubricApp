@@ -7,7 +7,7 @@ public class SocialSkillsData : ICategoryData
     public SocialSkillsData()
     {
         Name = "Social Skills";
-        Info = "These are the in person skills that lead to client and colleagues liking you on a personal level. These include public speaking, vibe and being nice.";
+        Info = "These are the in person skills that lead to client and colleagues liking you on a personal level. These include public speaking, vibe, and being nice.";
 
         List<string> gi = new();
         GradingInfo = gi;
