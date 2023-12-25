@@ -56,7 +56,7 @@ public class Program
 
         for (int i = 0; i < cat.Count; i++)
         {
-            Console.WriteLine($"{cat[i].CategoryName} Grade: {pc.ratings[cat[i].CategoryName]}");
+            Console.WriteLine($"{cat[i].CategoryName} Grade: {pc.ratings[cat[i].CategoryName]} out of {cat[i].GradingInfo.Count}");
         }
     }
 }
