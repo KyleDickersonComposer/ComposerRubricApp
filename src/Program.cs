@@ -4,7 +4,7 @@ public class Program
     {
         Console.WriteLine("Hello Composer! What is your name?");
         var cn = Console.ReadLine();
-        var pc = new ProsectiveComposer();
+        var pc = new ProspectiveComposer();
 
         if (string.IsNullOrEmpty(cn))
         {
@@ -30,7 +30,7 @@ public class Program
 
             }
 
-            Console.WriteLine("Evaluate yourself based on the above critera.");
+            Console.WriteLine("Evaluate yourself based on the above criteria.");
             Console.WriteLine("Please input your grade number.");
 
             bool done = false;
@@ -54,6 +54,7 @@ public class Program
         Console.WriteLine("Press enter to generate Report");
         Console.ReadLine();
 
+        Console.WriteLine(pc.Name);
         for (int i = 0; i < cat.Count; i++)
         {
             Console.WriteLine($"{cat[i].CategoryName} Grade: {pc.ratings[cat[i].CategoryName]} out of {cat[i].GradingInfo.Count}");

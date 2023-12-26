@@ -39,7 +39,7 @@
         ICategoryData cna = new CreditsNotorietyAssociationsData();
         ICategoryData tsd = new TechnicalSkillsData();
         ICategoryData mps = new MockupProductionSkillData();
-        ICategoryData ao = new ArrangingOrchetrationData();
+        ICategoryData ao = new ArrangingOrchestrationData();
         ICategoryData op = new OnlinePresenceData();
         ICategoryData ss = new SocialSkillsData();
         ICategoryData os = new OrganizationSkillsData();
