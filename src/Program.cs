@@ -45,7 +45,7 @@ public class Program
 
                 if (int.TryParse(input, out int result) && result > 0 && result <= cat[i].GradingInfo.Count)
                 {
-                    pc.ratings.Add(cat[i].CategoryName, result);
+                    pc.Ratings.Add(cat[i].CategoryName, result);
                     inputValid = true;
                 }
                 else
@@ -61,7 +61,7 @@ public class Program
         Console.WriteLine(pc.Name);
         for (int i = 0; i < cat.Count; i++)
         {
-            Console.WriteLine($"{cat[i].CategoryName} Grade: {pc.ratings[cat[i].CategoryName]} out of {cat[i].GradingInfo.Count}");
+            Console.WriteLine($"{cat[i].CategoryName} Grade: {pc.Ratings[cat[i].CategoryName]} out of {cat[i].GradingInfo.Count}");
         }
     }
 }
