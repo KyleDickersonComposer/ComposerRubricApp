@@ -5,8 +5,8 @@ public class Program
         Console.WriteLine("Hello Composer! What is your name?");
         var pc = new ProspectiveComposer();
 
-        var done1 = false;
-        while (!done1)
+        var nameValid = false;
+        while (!nameValid)
         {
             var cn = Console.ReadLine();
             if (string.IsNullOrEmpty(cn))
@@ -16,7 +16,7 @@ public class Program
             else
             {
                 pc.Name = cn;
-                done1 = true;
+                nameValid = true;
             }
         }
 
@@ -37,16 +37,16 @@ public class Program
             Console.WriteLine("Evaluate yourself based on the above criteria.");
             Console.WriteLine("Please input your grade number.");
 
-            var done2 = false;
+            var inputValid = false;
 
-            while (!done2)
+            while (!inputValid)
             {
                 var input = Console.ReadLine();
 
                 if (int.TryParse(input, out int result) && result > 0 && result <= cat[i].GradingInfo.Count)
                 {
                     pc.ratings.Add(cat[i].CategoryName, result);
-                    done2 = true;
+                    inputValid = true;
                 }
                 else
                 {
