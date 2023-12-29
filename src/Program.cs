@@ -50,7 +50,7 @@ public class Program
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input. Please enter a valid grade number between 1 and {0}.", cat[i].GradingInfo.Count);
+                    Console.WriteLine("Invalid input. Please enter a valid grade number between 1 and {cat[i].GradingInfo.Count}.");
                 }
             }
         }
