@@ -35,27 +35,27 @@
     {
         var cd = new List<ICategoryData>();
 
-        ICategoryData mba = new MusicalAbilityData();
+        ICategoryData mad = new MusicalAbilityData();
         ICategoryData cna = new CreditsNotorietyAssociationsData();
         ICategoryData tsd = new TechnicalSkillsData();
         ICategoryData mps = new MockupProductionSkillData();
-        ICategoryData ao = new ArrangingOrchestrationData();
-        ICategoryData op = new OnlinePresenceData();
-        ICategoryData ss = new SocialSkillsData();
-        ICategoryData os = new OrganizationSkillsData();
-        ICategoryData cp = new ComputerProgrammingData();
-        ICategoryData ik = new IndustryKnowledgeData();
+        ICategoryData aod = new ArrangingOrchestrationData();
+        ICategoryData opd = new OnlinePresenceData();
+        ICategoryData ssd = new SocialSkillsData();
+        ICategoryData osd = new OrganizationSkillsData();
+        ICategoryData cpd = new ComputerProgrammingData();
+        ICategoryData ikd = new IndustryKnowledgeData();
 
-        cd.Add(mba);
+        cd.Add(mad);
         cd.Add(cna);
         cd.Add(tsd);
         cd.Add(mps);
-        cd.Add(ao);
-        cd.Add(op);
-        cd.Add(ss);
-        cd.Add(os);
-        cd.Add(cp);
-        cd.Add(ik);
+        cd.Add(aod);
+        cd.Add(opd);
+        cd.Add(ssd);
+        cd.Add(osd);
+        cd.Add(cpd);
+        cd.Add(ikd);
         return cd;
     }
 
