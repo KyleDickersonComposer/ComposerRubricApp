@@ -2,8 +2,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Console.Clear();
         Console.WriteLine("Hello Composer! What is your name?");
         var pc = new ProspectiveComposer();
+
 
         var nameValid = false;
         while (!nameValid)
@@ -18,6 +20,7 @@ public class Program
                 pc.Name = cn;
                 nameValid = true;
             }
+            Console.Clear();
         }
 
         var rub = new Rubric();
@@ -50,13 +53,15 @@ public class Program
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input. Please enter a valid grade number between 1 and {cat[i].GradingInfo.Count}.");
+                    Console.WriteLine($"Invalid input. Please enter a valid grade number between 1 and {cat[i].GradingInfo.Count}.");
                 }
             }
+            Console.Clear();
         }
 
         Console.WriteLine("Press enter to generate Report");
         Console.ReadLine();
+        Console.Clear();
 
         Console.WriteLine(pc.Name);
         for (int i = 0; i < cat.Count; i++)

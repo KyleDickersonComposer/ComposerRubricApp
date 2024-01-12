@@ -7,7 +7,7 @@ public class ComputerProgrammingData : ICategoryData
     public ComputerProgrammingData()
     {
         Name = "Computer Programming Skills";
-        Info = "This is not a common skill for a composer to have today. Composers that are able to program often function as a technical sound designer because technical composers are a rare position game companies to employ.";
+        Info = "This is not a common skill for a composer to have today. Composers that are able to program often function as a technical sound designer because technical composers are a rare position for game companies to employ.";
 
         List<string> gi = new();
         GradingInfo = gi;
